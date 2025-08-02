@@ -9,6 +9,16 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZurkoLucrecia/RESTFull_API.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ZurkoLucrecia/RESTFull_API/issues"
+  },
+  "homepage": "https://github.com/ZurkoLucrecia/RESTFull_API#readme"
 }

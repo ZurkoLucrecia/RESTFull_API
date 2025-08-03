@@ -21,7 +21,7 @@ app.get ('/usuarios/:id', (req,res) =>{
    const id = parseInt(req.params.id);
    const usuario = usuarios.find(u => u.id_usuario === id);
     if (usuario){
-        res.send(200)(usuario);
+        res.send(200).send(usuario);
     } else {
         res.status(404).send({ error: 'Usuario no encontrado'});
     }
